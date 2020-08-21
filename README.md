@@ -1,6 +1,6 @@
-# 👨‍🚒👩‍🚒🚒 LODUR Statistiken
+# LODUR Statistiken
 
-Open Data Analyse und Statistiken für die Einsätze der Feuerwehr Derendingen
+👨‍🚒👩‍🚒🚒 Open Data Analyse und Statistiken für die Einsätze der Feuerwehr Derendingen 
 
 ---
 

@@ -6,7 +6,7 @@ Created on Fri Aug 21 21:11:12 2020
 """
 
 import csv
-import requests	
+import requests 
 import json
 
 # add your own API Key from positionstack.com
@@ -14,7 +14,7 @@ api_key = ''
 
 # limit=1 limits the number of results to 1
 # @bug: this might return the address for "street 6b" when requesting "street 6a"
-requrl = 'http://api.positionstack.com/v1/forward?access_key=' + str(api_key) + '&limit=1&query='
+requrl = 'http://api.positionstack.com/v1/forward?access_key=' + str(api_key) + '&country=CH&region=Solothurn&limit=1&query='
 data = []
 
 def writeJsonFile(filename, data):
@@ -57,8 +57,9 @@ with open('lodur-raw.csv', 'r', encoding='utf-8') as csvfile:
                             entry['lat'] = geocode['latitude']
                             entry['lon'] = geocode['longitude']
                             entry['geocode'] = geocode
-                            print(entry['lat'] + ', ' + entry['lon'])
-                    except Exception:
+                            print(str(entry['lat']) + ', ' + str(entry['lon']))
+                    except Exception as ex:
+                        print(ex)
                         print(address)
                         print(geocode)
             data.append(entry)

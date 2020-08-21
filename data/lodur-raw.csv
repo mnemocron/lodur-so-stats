@@ -46,13 +46,13 @@ Date, 	Type, 	Address, 	Text, lat, long
 04.04.2012, 	Fire, 	Meisenweg 1 4552 Derendingen, 	Küchenbrand 
 13.03.2012, 	Fire, 	Holunderweg 22 4552 Derendingen, 	Brand Mehrfamilienhaus 
 02.03.2012, 	Fire, 	Luzernstrasse 19 4552 Derendingen, 	Brand Einfamilienhaus 
-18.02.2012, 	Fire, 	Hünikerstrasse 12/14 4557 Horriwil, 	Brand in Wohnung 
+18.02.2012, 	Fire, 	Hünikerstrasse 14 4557 Horriwil, 	Brand in Wohnung Hünikerstrasse 12
 14.02.2012, 	Fire, 	Hauptstrasse 37 4552 Derendingen, 	Brand Klimaanlage-Wärmetauscher auf Dach 
 03.02.2012, 	Fire, 	Kleefeldstrasse 5 4552 Derendingen, 	PW-Brand 
 03.02.2012, 	Person, 	Schreinergasse 3a 4552 Derendingen, 	Lift Rettung 
 27.01.2012, 	BMA, 	Steinmattstrasse 35 4552 Derendingen, 	BMA-Alarm Coop 
-22.01.2012, 	Fire, 	Hünikerstrasse 14 4557 Horriwil, 	Dachstockbrand, 
-05.01.2012, 	-, 	Bahnhofstr 8 4552 Derendingen, 	Baum liegt am Gebäude an. 
+22.01.2012, 	Fire, 	Hünikerstrasse 14 4557 Horriwil, 	Dachstockbrand Hünikerstrasse 14 
+05.01.2012, 	-, 	Bahnhofstrasse 8 4552 Derendingen, 	Baum liegt am Gebäude an. 
 04.01.2012, 	-, 	Steinmattstrasse 14 4552 Derendingen, 	Gasgeruch 
 03.01.2012, 	BMA, 	Gewerbestrasse 10 4552 Derendingen, 	BMA Alarm 
 16.11.2013, 	BMA, 	Schwarzweg 3 4552 Derendingen, 	2. BMA-Alarm Kinderheim Hangar 
@@ -66,7 +66,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 05.08.2013, 	Person, 	Dornackerstrasse 4566 Kriegstetten, 	Patientenbergung mit ADL 
 04.08.2013, 	-, 	Hauptstrasse 1 4563 Gerlafingen, 	Blitzschlag im Dach Einsatz ADL 
 27.07.2013, 	Fire, 	Kirchgasse 2 4552 Derendingen, 	Küchenbrand 
-26.07.2013, 	BMA, 	Haupstrasse 96 4552 Derendingen, 	1. BMA - Alarm Böglihuus 
+26.07.2013, 	BMA, 	Hauptstrasse 96 4552 Derendingen, 	1. BMA - Alarm Böglihuus 
 18.07.2013, 	BMA, 	Gewerbestrasse 11 4552 Derendingen, 	1. BMA-Alarm Brönnimann AG 
 01.06.2013, 	Water, 	-, 	Diverse Einsätze Hochwasser Absperrungen Emme, 47.198883, 7.580365
 10.05.2013, 	BMA, 	Luterbachstrasse 1 4552 Derendingen, 	1. BMA Alarm DHL Logistics 
@@ -107,7 +107,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 28.01.2014, 	BMA, 	Luterbachstrasse 1 4552 Derendingen, 	1. BMA Alarm DHL Logistics 
 22.01.2014, 	Fire, 	Emmenhofstrasse 2 4552 Derendingen, 	Brand Schopf 
 16.01.2014, 	Fire, 	Oelergasse 8 4552 Derendingen, 	Autobrand 
-10.01.2014, 	BMA, 	Guttenbergstrasse 1 4552 Derendingen, 	1. BMA-Alarm Vogt Schild Druck AG 
+10.01.2014, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	1. BMA-Alarm Vogt Schild Druck AG 
 08.01.2014, 	Fire, 	Hauptstrasse 1 4552 Derendingen , 	Kaminbrad 
 29.12.2015, 	Fire, 	Kirchgasse 4 4552 Derendingen, 	Kellerbrand 
 28.12.2015, 	Water, 	Steinmattstrasse 6 4552 Derendingen, 	Wassereinbruch in Tankraum 
@@ -122,7 +122,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 31.08.2015, 	BMA, 	Gewerbestrasse 10 4552 Derendingen, 	BMA-Alarm Gewerbehaus Längacker 
 22.08.2015, 	BMA, 	Schwarzweg 3 4552 Derendingen, 	7. BMA-Alarm Kinderheim Hangar 
 22.08.2015, 	Fire, 	Steinmattstrasse 29 4552 Derendingen, 	Brand von Baumaterial 
-20.07.2015, 	BMA, 	Guttenbergstrasse 1 4552 Derendingen, 	2. BMA-Alarm Vogt Schild Druck AG 
+20.07.2015, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	2. BMA-Alarm Vogt Schild Druck AG 
 04.07.2015, 	Animal, 	Bankgasse 4 "Vogel" 4552 Derendingen, 	2# Tierrettung Bankgasse 4 "Vogel"
 25.05.2015, 	Animal, 	Eichholzweg 4552 Derendingen, 	Tierrettung Katze auf Baum 
 04.05.2015, 	Water, 	Eigerstrasse 2 4552 Derendingen, 	Wasser im Keller 
@@ -134,7 +134,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 19.03.2015, 	Animal, 	Bankgasse 4 4552 Derendingen, 	1# Tierrettung Bankgasse 4 "Vogel"
 18.03.2015, 	Fire, 	Widligasse 12 4552 Derendingen, 	Brand 
 01.03.2015, 	Fire, 	Oberes Emmenholz 58 4528 Zuchwil, 	Brand Bauernhaus 
-25.02.2015, 	Water, 	Mühlgasse 1 4552 Derendingen , 	Wasser im Schacht 
+25.02.2015, 	Water, 	Mühlegasse 1 4552 Derendingen , 	Wasser im Schacht 
 20.12.2016, 	BMA, 	Fabrikstrasse 18 4552 Derendingen, 	7#BMA-Alarm Fabrikstrasse 18 ( Weissensteinfeld )
 08.12.2016, 	Support, 	4563 Gerlafingen, 	Nachbarhilfe mit ADL in Gerlafingen, 47.171207, 7.572541
 22.11.2016, 	BMA, 	Fabrikstrasse 18 4552 Derendingen, 	6#BMA-Alarm Fabrikstrasse 18 ( Weissensteinfeld )
@@ -144,7 +144,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 31.10.2016, 	Hazmat, 	Biberiststrasse 4552 Derendingen, 	Oelspur ca.2,5 Km lang auf der Biberiststrasse
 02.10.2016, 	BMA, 	Fabrikstrasse 18 4552 Derendingen, 	5#BMA-Alarm Fabrikstrasse 18 ( Weissensteinfeld )
 01.10.2016, 	Animal, 	Emmenhofallee 10 4552 Derendingen, 	Katze auf dem Dach
-23.09.2016, 	BMA, 	Guttenbergstrasse 1 4552 Derendingen, 	3. BMA-Alarm Vogt Schild Druck AG 
+23.09.2016, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	3. BMA-Alarm Vogt Schild Druck AG 
 19.08.2016, 	Fire, 	Freiheitweg 5 4552 Derendingen, 	Dachstuhl Brand 
 16.08.2016, 	Support, 	Heinibühlstrasse 32 Lohn-Ammannsegg, 	Nachbarhilfe ADL Brand 
 28.07.2016, 	BMA, 	Emmenhofstrasse 4 4552 Derendingen, 	BMA-Alarm Emmenhofimmobillien AG 
@@ -227,8 +227,8 @@ Date, 	Type, 	Address, 	Text, lat, long
 03.09.2019, 	-, 	Sportstrasse 4552 Derendingen, 	Bohrlöcher Einschwemmen Biotop Heidenegg 
 16.08.2019, 	Fire, 	Schützenstrasse 4552 Derendingen, 	Autobrand 
 16.08.2019, 	Fire, 	Emmenholzweg 4552 Derendingen, 	Holzstapelbrand Emmenholzweg ( Blockhaus )
-01.08.2019, 	-, 	Bleichenberg 4552 Derendingen, 	Fahrdienst / Aufstellen Beleuchtung / Absperren der Strasse für 1.August auf dem Bleichenberg
-01.08.2019, 	-, 	Bleichenberg 4552 Derendingen, 	Brandwache / Fahrdienst / Rückbau Beleuchtung und Sperrung der Strasse 1.August Feier Bleichenberg
+01.08.2019, 	-, 	Bleichenberg 4552 Derendingen, 	Fahrdienst / Aufstellen Beleuchtung / Absperren der Strasse für 1.August auf dem Bleichenberg, 47.193687, 7.567202
+01.08.2019, 	-, 	Bleichenberg 4552 Derendingen, 	Brandwache / Fahrdienst / Rückbau Beleuchtung und Sperrung der Strasse 1.August Feier Bleichenberg, 47.193687, 7.567202
 27.07.2019, 	Fire, 	Schützenstrasse 7 4552 Derendingen, 	Brand Elektroverteilerkasten 
 14.07.2019, 	Water, 	Hofackerstrasse 7 4552 Derendingen, 	Wassereinbruch 
 14.06.2019, 	Animal, 	Lerchenweg 4552 Derendingen, 	Tierrettung Katze von Baum hohlen 
