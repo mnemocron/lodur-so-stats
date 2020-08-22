@@ -59,9 +59,8 @@
         "address": " Fabrikstrasse 8 Derendingen",
         "category": " BMA",
         "date": "2011-10-22",
-        "lat": " BKS Kabel - Service AG",
-        "lon": " ",
-        "text": " BMA Alarm"
+        "lat": " ",
+        "text": " BMA Alarm BKS Kabel - Service AG"
     },
     {
         "address": " Luzernstrasse 1 4552 Derendingen",
@@ -235,9 +234,8 @@
         "address": " Gutenbergstrasse 1 4552 Derendingen",
         "category": " BMA",
         "date": "2011-09-03",
-        "lat": " Vogt Schild",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Vogt Schild"
     },
     {
         "address": " Gutenbergstrasse 1 4552 Derendingen",
@@ -445,9 +443,8 @@
         "address": " Hauptstrasse 22 4552 Derendingen",
         "category": " BMA",
         "date": "2011-05-26",
-        "lat": " Migros",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Migros"
     },
     {
         "address": " Lindenstrasse 20 4552 Derendingen",
@@ -481,41 +478,36 @@
         "address": " Gewerbestrasse 4 4552 Derendingen",
         "category": " BMA",
         "date": "2011-05-18",
-        "lat": " Forteq AG",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Forteq AG"
     },
     {
         "address": " Gutenbergstrasse 1 4552 Derendingen",
         "category": " BMA",
         "date": "2011-05-14",
-        "lat": " Vogt Schild",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Vogt Schild"
     },
     {
         "address": " Gutenbergstrasse 1 4552 Derendingen",
         "category": " BMA",
         "date": "2011-05-12",
-        "lat": " Vogt Schild",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Vogt Schild"
     },
     {
         "address": " Gutenbergstrasse 1 4552 Derendingen",
         "category": " BMA",
         "date": "2011-05-04",
-        "lat": " Vogt Schild",
-        "lon": " ",
-        "text": " BMA-Alarm"
+        "lat": " ",
+        "text": " BMA-Alarm Vogt Schild"
     },
     {
         "address": " Gutenbergstrasse 1 4552 Derendingen",
         "category": " Water",
         "date": "2011-04-30",
-        "lat": " Vogt Schild",
-        "lon": " ",
-        "text": " Wassereinbruch"
+        "lat": " ",
+        "text": " Wassereinbruch Vogt Schild"
     },
     {
         "address": " Schachenstrasse 30 4543 Deitingen",
@@ -667,8 +659,29 @@
         "address": " Hauptstrasse 96 4552 Derendingen",
         "category": " BMA",
         "date": "2011-01-11",
-        "lat": " Jugendheim B\u00f6glihuus ",
-        "text": " BMA Hauptstrasse 96"
+        "geocode": {
+            "administrative_area": null,
+            "confidence": 1,
+            "continent": "Europe",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "county": null,
+            "label": "Hauptstrasse 96a, Switzerland",
+            "latitude": 47.186396,
+            "locality": null,
+            "longitude": 7.589943,
+            "name": "Hauptstrasse 96a",
+            "neighbourhood": null,
+            "number": "96a",
+            "postal_code": "4552",
+            "region": "Solothurn",
+            "region_code": "SO",
+            "street": "Hauptstrasse",
+            "type": "address"
+        },
+        "lat": 47.186396,
+        "lon": 7.589943,
+        "text": " BMA Hauptstrasse 96 Jugendheim B\u00f6glihuus "
     },
     {
         "address": " Gerlafingenstrasse 13 4552 Derendingen",
@@ -765,15 +778,57 @@
         "address": " Rosenmatt 2 4552 Derendingen",
         "category": " Storm",
         "date": "2012-07-28",
-        "lat": " H\u00f6he Rosenmatt 2 (bei Feuerwehrmagazin)",
-        "text": " Windfall Baum in Gr\u00fcttbach gest\u00fcrzt"
+        "geocode": {
+            "administrative_area": null,
+            "confidence": 1,
+            "continent": "Europe",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "county": null,
+            "label": "Rosenmatt 2, Derendingen, Switzerland",
+            "latitude": 47.196115,
+            "locality": "Derendingen",
+            "longitude": 7.588694,
+            "name": "Rosenmatt 2",
+            "neighbourhood": null,
+            "number": "2",
+            "postal_code": "4552",
+            "region": "Solothurn",
+            "region_code": "SO",
+            "street": "Rosenmatt",
+            "type": "address"
+        },
+        "lat": 47.196115,
+        "lon": 7.588694,
+        "text": " Windfall Baum in Gr\u00fcttbach gest\u00fcrzt H\u00f6he Rosenmatt 2 (bei Feuerwehrmagazin)"
     },
     {
         "address": " Hauptstrasse 73 4552 Derendingen",
         "category": " Accident",
         "date": "2012-07-13",
-        "lat": " Umleitung aufgezogen",
-        "text": " Verkehrsunfall  "
+        "geocode": {
+            "administrative_area": null,
+            "confidence": 1,
+            "continent": "Europe",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "county": null,
+            "label": "Hauptstrasse 73, Derendingen, Switzerland",
+            "latitude": 47.191199,
+            "locality": "Derendingen",
+            "longitude": 7.586716,
+            "name": "Hauptstrasse 73",
+            "neighbourhood": null,
+            "number": "73",
+            "postal_code": "4552",
+            "region": "Solothurn",
+            "region_code": "SO",
+            "street": "Hauptstrasse",
+            "type": "address"
+        },
+        "lat": 47.191199,
+        "lon": 7.586716,
+        "text": " Verkehrsunfall  Umleitung aufgezogen"
     },
     {
         "address": " Spechtweg 6 4552 Derendingen",
@@ -2041,28 +2096,6 @@
         "address": " Uferweg 4552 Derendingen",
         "category": " Fire",
         "date": "2014-12-08",
-        "geocode": {
-            "administrative_area": null,
-            "confidence": 1,
-            "continent": "Europe",
-            "country": "Switzerland",
-            "country_code": "CHE",
-            "county": null,
-            "label": "Uferweg, Derendingen, Switzerland",
-            "latitude": 47.198974,
-            "locality": "Derendingen",
-            "longitude": 7.581499,
-            "name": "Uferweg",
-            "neighbourhood": null,
-            "number": null,
-            "postal_code": null,
-            "region": "Solothurn",
-            "region_code": "SO",
-            "street": "Uferweg",
-            "type": "street"
-        },
-        "lat": 47.198974,
-        "lon": 7.581499,
         "text": " Brand Abfalleimer bei Emmen Spielplatz "
     },
     {
@@ -3529,8 +3562,29 @@
         "address": " Biberiststrasse 4552 Derendingen",
         "category": " Hazmat",
         "date": "2016-10-31",
-        "lat": "5 Km lang auf der Biberiststrasse",
-        "text": " Oelspur ca.2"
+        "geocode": {
+            "administrative_area": null,
+            "confidence": 1,
+            "continent": "Europe",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "county": null,
+            "label": "Biberiststrasse, Niedergerlafingen, Switzerland",
+            "latitude": 47.172638,
+            "locality": "Niedergerlafingen",
+            "longitude": 7.568816,
+            "name": "Biberiststrasse",
+            "neighbourhood": null,
+            "number": null,
+            "postal_code": null,
+            "region": "Solothurn",
+            "region_code": "SO",
+            "street": "Biberiststrasse",
+            "type": "street"
+        },
+        "lat": 47.172638,
+        "lon": 7.568816,
+        "text": " Oelspur ca. 2.5 Km lang auf der Biberiststrasse"
     },
     {
         "address": " Fabrikstrasse 18 4552 Derendingen",
@@ -5036,59 +5090,59 @@
         "text": " 14#BMA-Alarm Fabrikstrasse 18 ( Wissensteinfeld )"
     },
     {
-        "address": " Gewerbestrasse 4 Forteq AG 4552 Derendingen",
+        "address": " Gewerbestrasse 4 4552 Derendingen",
         "category": " BMA",
         "date": "2018-10-13",
         "geocode": {
             "administrative_area": null,
-            "confidence": 0.8,
+            "confidence": 1,
             "continent": "Europe",
             "country": "Switzerland",
             "country_code": "CHE",
             "county": null,
-            "label": "4552, Derendingen, Switzerland",
-            "latitude": 47.192089,
-            "locality": "Derendingen",
-            "longitude": 7.589911,
-            "name": "4552",
+            "label": "Gewerbestrasse 4, Switzerland",
+            "latitude": 47.196996,
+            "locality": null,
+            "longitude": 7.596246,
+            "name": "Gewerbestrasse 4",
             "neighbourhood": null,
-            "number": null,
+            "number": "4",
             "postal_code": "4552",
             "region": "Solothurn",
             "region_code": "SO",
-            "street": null,
-            "type": "postalcode"
+            "street": "Gewerbestrasse",
+            "type": "address"
         },
-        "lat": 47.192089,
-        "lon": 7.589911,
+        "lat": 47.196996,
+        "lon": 7.596246,
         "text": " BMA Alarm Forteq AG"
     },
     {
-        "address": " Gewerbestrasse 11 Br\u00f6nimann 4552 Derendingen",
+        "address": " Gewerbestrasse 11 4552 Derendingen",
         "category": " BMA",
         "date": "2018-10-08",
         "geocode": {
             "administrative_area": null,
-            "confidence": 0.8,
+            "confidence": 1,
             "continent": "Europe",
             "country": "Switzerland",
             "country_code": "CHE",
             "county": null,
-            "label": "4552, Derendingen, Switzerland",
-            "latitude": 47.192089,
-            "locality": "Derendingen",
-            "longitude": 7.589911,
-            "name": "4552",
+            "label": "Gewerbestrasse 11, Switzerland",
+            "latitude": 47.196989,
+            "locality": null,
+            "longitude": 7.598709,
+            "name": "Gewerbestrasse 11",
             "neighbourhood": null,
-            "number": null,
+            "number": "11",
             "postal_code": "4552",
             "region": "Solothurn",
             "region_code": "SO",
-            "street": null,
-            "type": "postalcode"
+            "street": "Gewerbestrasse",
+            "type": "address"
         },
-        "lat": 47.192089,
-        "lon": 7.589911,
+        "lat": 47.196989,
+        "lon": 7.598709,
         "text": " BMA Alarm  Br\u00f6nimann"
     },
     {
@@ -5428,31 +5482,31 @@
         "text": " Rauch im Keller "
     },
     {
-        "address": " Gewerbestrasse 4 Forteq AG 4552 Derendingen",
+        "address": " Gewerbestrasse 4 4552 Derendingen",
         "category": " BMA",
         "date": "2018-01-25",
         "geocode": {
             "administrative_area": null,
-            "confidence": 0.8,
+            "confidence": 1,
             "continent": "Europe",
             "country": "Switzerland",
             "country_code": "CHE",
             "county": null,
-            "label": "4552, Derendingen, Switzerland",
-            "latitude": 47.192089,
-            "locality": "Derendingen",
-            "longitude": 7.589911,
-            "name": "4552",
+            "label": "Gewerbestrasse 4, Switzerland",
+            "latitude": 47.196996,
+            "locality": null,
+            "longitude": 7.596246,
+            "name": "Gewerbestrasse 4",
             "neighbourhood": null,
-            "number": null,
+            "number": "4",
             "postal_code": "4552",
             "region": "Solothurn",
             "region_code": "SO",
-            "street": null,
-            "type": "postalcode"
+            "street": "Gewerbestrasse",
+            "type": "address"
         },
-        "lat": 47.192089,
-        "lon": 7.589911,
+        "lat": 47.196996,
+        "lon": 7.596246,
         "text": " BMA Alarm ForTec"
     },
     {
@@ -5515,8 +5569,29 @@
         "address": "  4552 Derendingen ",
         "category": " Storm",
         "date": "2018-01-03",
-        "lat": " Diverese umgefallende B\u00e4ume",
-        "text": " Windfall "
+        "geocode": {
+            "administrative_area": null,
+            "confidence": 1,
+            "continent": "Europe",
+            "country": "Switzerland",
+            "country_code": "CHE",
+            "county": null,
+            "label": "4552, Derendingen, Switzerland",
+            "latitude": 47.192089,
+            "locality": "Derendingen",
+            "longitude": 7.589911,
+            "name": "4552",
+            "neighbourhood": null,
+            "number": null,
+            "postal_code": "4552",
+            "region": "Solothurn",
+            "region_code": "SO",
+            "street": null,
+            "type": "postalcode"
+        },
+        "lat": 47.192089,
+        "lon": 7.589911,
+        "text": " Windfall Diverese umgefallende B\u00e4ume"
     },
     {
         "address": " Gewerbestrasse 11 Br\u00f6nimann 4552 Derendingen",
@@ -5830,16 +5905,16 @@
         "address": " Bleichenberg 4552 Derendingen",
         "category": " -",
         "date": "2019-08-01",
-        "lat": 47.193687,
-        "lon": 7.567202,
+        "lat": " 47.193687",
+        "lon": " 7.567202",
         "text": " Fahrdienst / Aufstellen Beleuchtung / Absperren der Strasse f\u00fcr 1.August auf dem Bleichenberg"
     },
     {
         "address": " Bleichenberg 4552 Derendingen",
         "category": " -",
         "date": "2019-08-01",
-        "lat": 47.193687,
-        "lon": 7.567202,
+        "lat": " 47.193687",
+        "lon": " 7.567202",
         "text": " Brandwache / Fahrdienst / R\u00fcckbau Beleuchtung und Sperrung der Strasse 1.August Feier Bleichenberg"
     },
     {

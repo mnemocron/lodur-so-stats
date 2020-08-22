@@ -1,14 +1,14 @@
 Date, 	Type, 	Address, 	Text, lat, long
 16.12.2011, 	Water, 	Kirchgasse 13a 4552 Derendingen, 	Wassereinbruch im Keller 
 15.11.2011, 	Person, 	Luterbachstrasse 4 4552 Derendingen, 	Personenrettung mit ADL 
-22.10.2011, 	BMA, 	Fabrikstrasse 8 Derendingen, 	BMA Alarm, BKS Kabel - Service AG, 
+22.10.2011, 	BMA, 	Fabrikstrasse 8 Derendingen, 	BMA Alarm BKS Kabel - Service AG, 
 23.09.2011, 	Hazmat, 	Luzernstrasse 1 4552 Derendingen, 	Oelwehr Einsatz 
 17.09.2011, 	Storm, 	Affolterstrasse 7 4552 Derendingen, 	Windfall Eichenbaum auf Zeughausdach 
 13.09.2011, 	Fire, 	Widligasse 12 4552 Derendingen, 	Brand in Wohnung 
 13.09.2011, 	Person, 	Maisfeldstrasse 8 4552 Derendingen, 	Bergung ein Person mit ADL 
 04.09.2011, 	Water, 	Spechtweg 6a 4552 Derendingen, 	Ueberschwemmung durch Bach 
 04.09.2011, 	Water, 	Spechtweg 10a 4552 Derendingen, 	drohender Wassereinbruch 
-03.09.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm, Vogt Schild, 
+03.09.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm Vogt Schild, 
 26.08.2011, 	Hazmat, 	Gutenbergstrasse 1 4552 Derendingen, 	1000 Liter Farbbehälter umgestürzt. 
 25.08.2011, 	Hazmat, 	Güterstrasse 4 4552 Derendingen, 	Beim umpumpen vom Anhänger ins Zugfahrzeug ist ca. 50 l Heizöl ausgelaufen. 
 13.07.2011, 	Storm, 	-, 	Unwetter - umgestürzte Bäume diverse Orte
@@ -17,26 +17,26 @@ Date, 	Type, 	Address, 	Text, lat, long
 05.06.2011, 	Water, 	Eigerstrasse 5 4552 Derendingen, 	Wassereinbruch im Keller 
 02.06.2011, 	BMA, 	Schwarzweg 3 4552 Derendingen, 	BMA Alarm Kinderheim Hangar 
 27.05.2011, 	Person, 	Hauptstrasse 61 4566 Kriegstetten, 	Personenrettung mit ADL 
-26.05.2011, 	BMA, 	Hauptstrasse 22 4552 Derendingen, 	BMA-Alarm, Migros, 
+26.05.2011, 	BMA, 	Hauptstrasse 22 4552 Derendingen, 	BMA-Alarm Migros, 
 19.05.2011, 	-, 	Lindenstrasse 20 4552 Derendingen, 	Temperaturanstieg im Heusilo 
-18.05.2011, 	BMA, 	Gewerbestrasse 4 4552 Derendingen, 	BMA-Alarm, Forteq AG, 
-14.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm, Vogt Schild, 
-12.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm, Vogt Schild, 
-04.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm, Vogt Schild, 
-30.04.2011, 	Water, 	Gutenbergstrasse 1 4552 Derendingen, 	Wassereinbruch, Vogt Schild, 
+18.05.2011, 	BMA, 	Gewerbestrasse 4 4552 Derendingen, 	BMA-Alarm Forteq AG, 
+14.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm Vogt Schild, 
+12.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm Vogt Schild, 
+04.05.2011, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	BMA-Alarm Vogt Schild, 
+30.04.2011, 	Water, 	Gutenbergstrasse 1 4552 Derendingen, 	Wassereinbruch Vogt Schild, 
 26.04.2011, 	Fire, 	Schachenstrasse 30 4543 Deitingen, 	Brand Schopf 
 18.04.2011, 	Fire, 	, 	Mottfeuer am Emmen Ufer bei Grillstelle
 02.04.2011, 	BMA, 	Schwarzweg 3 4552 Derendingen, 	BMA Alarm Kinderheim Hangar 
 12.03.2011, 	BMA, 	Schwarzweg 3 4552 Derendingen, 	BMA Alarm Kinderheim Hangar 
 01.02.2011, 	BMA, 	Gewerbestrasse 11 4552 Derendingen, 	BMA Alarm Brand eines Elektromotores Brönniman AG
 28.01.2011, 	Fire, 	Hauptstrasse 62 4566 Kriegstetten, 	Brand Schopf 
-11.01.2011, 	BMA, 	Hauptstrasse 96 4552 Derendingen, 	BMA Hauptstrasse 96, Jugendheim Böglihuus 
+11.01.2011, 	BMA, 	Hauptstrasse 96 4552 Derendingen, 	BMA Hauptstrasse 96 Jugendheim Böglihuus 
 17.12.2012, 	Water, 	Gerlafingenstrasse 13 4552 Derendingen, 	überflutetes Feld, Hilfeleistung für Bauverwaltung 
 14.12.2012, 	Water, 	Grafenstrasse 7 4552 Derendingen, 	Wassereinbruch in Geräteschuppen 
 06.10.2012, 	Fire/Hazmat, 	Hofstattstrasse 13D 4552 Derendingen, 	Chemineebrand (Bioethanol) 
 15.09.2012, 	BMA, 	Gewerbestrasse 4 4552 Derendingen, 	BMA Alarm Forteq AG 
-28.07.2012, 	Storm, 	Rosenmatt 2 4552 Derendingen, 	Windfall Baum in Grüttbach gestürzt, Höhe Rosenmatt 2 (bei Feuerwehrmagazin)
-13.07.2012, 	Accident, 	Hauptstrasse 73 4552 Derendingen, 	Verkehrsunfall  , Umleitung aufgezogen
+28.07.2012, 	Storm, 	Rosenmatt 2 4552 Derendingen, 	Windfall Baum in Grüttbach gestürzt Höhe Rosenmatt 2 (bei Feuerwehrmagazin)
+13.07.2012, 	Accident, 	Hauptstrasse 73 4552 Derendingen, 	Verkehrsunfall  Umleitung aufgezogen
 21.06.2012, 	Storm, 	Spechtweg 6 4552 Derendingen, 	Baum in Bach gestürtzt 
 19.06.2012, 	BMA, 	Steinmattstrasse 35 4552 Derendingen, 	BMA - Alarm Coop 
 15.06.2012, 	BMA, 	Steinmattstrasse 35 4552 Derendingen, 	BMA - Alarm Coop Verdacht auf austretendes CO2 
@@ -141,7 +141,7 @@ Date, 	Type, 	Address, 	Text, lat, long
 14.11.2016, 	Water, 	Biberiststrasse 48 4552 Derendingen, 	Wassereinbruch 
 08.11.2016, 	-, 	Hauptstrasse 28 4552 Derendingen, 	Techn. Hilfeleistung 
 04.11.2016, 	BMA, 	 Gewerbestrasse 9 4552 Derendingen, 	1 BMA Alarm Promatec Automation AG
-31.10.2016, 	Hazmat, 	Biberiststrasse 4552 Derendingen, 	Oelspur ca.2,5 Km lang auf der Biberiststrasse
+31.10.2016, 	Hazmat, 	Biberiststrasse 4552 Derendingen, 	Oelspur ca. 2.5 Km lang auf der Biberiststrasse
 02.10.2016, 	BMA, 	Fabrikstrasse 18 4552 Derendingen, 	5#BMA-Alarm Fabrikstrasse 18 ( Weissensteinfeld )
 01.10.2016, 	Animal, 	Emmenhofallee 10 4552 Derendingen, 	Katze auf dem Dach
 23.09.2016, 	BMA, 	Gutenbergstrasse 1 4552 Derendingen, 	3. BMA-Alarm Vogt Schild Druck AG 
@@ -198,8 +198,8 @@ Date, 	Type, 	Address, 	Text, lat, long
 04.12.2018, 	Water, 	Bankgasse 3 4552 Derendingen, 	Wasser im Keller 
 03.12.2018, 	Storm, 	Schwimmbadstrasse 1 4552 Derendingen, 	Gestürzter Baum 
 30.10.2018, 	BMA, 	Fabrikstrasse 18 4552 Derendingen, 	14#BMA-Alarm Fabrikstrasse 18 ( Wissensteinfeld )
-13.10.2018, 	BMA, 	Gewerbestrasse 4 Forteq AG 4552 Derendingen, 	BMA Alarm Forteq AG
-08.10.2018, 	BMA, 	Gewerbestrasse 11 Brönimann 4552 Derendingen, 	BMA Alarm  Brönimann
+13.10.2018, 	BMA, 	Gewerbestrasse 4 4552 Derendingen, 	BMA Alarm Forteq AG
+08.10.2018, 	BMA, 	Gewerbestrasse 11 4552 Derendingen, 	BMA Alarm  Brönimann
 23.09.2018, 	Storm, 	Bankgasse 4 4552 Derendingen, 	Windfall 
 19.09.2018, 	Water, 	Birkenweg 3 4552 Derendingen, 	Wassereinbruch 
 02.09.2018, 	BMA, 	Gewerbestrasse 11 Brönimann 4552 Derendingen, 	BMA Alarm 
@@ -212,10 +212,10 @@ Date, 	Type, 	Address, 	Text, lat, long
 30.04.2018, 	Storm, 	Spechtweg 8 4552 Derendingen, 	Windfall / gestürzte Bäume 
 22.04.2018, 	BMA, 	Hauptstrasse 37 4552 Derendingen, 	BMA Alarm Raiffeisenbank 
 01.04.2018, 	-, 	Meisenweg 19 4552 Derendingen, 	Rauch im Keller 
-25.01.2018, 	BMA, 	Gewerbestrasse 4 Forteq AG 4552 Derendingen, 	BMA Alarm ForTec
+25.01.2018, 	BMA, 	Gewerbestrasse 4 4552 Derendingen, 	BMA Alarm ForTec
 22.01.2018, 	Water, 	Meisenweg 3 4552 Derendingen, 	Wassereinbruch 
 18.01.2018, 	Fire, 	Gewerbestrasse 12 4552 Derendingen, 	Brand Presscontainer 
-03.01.2018, 	Storm, 	 4552 Derendingen , 	Windfall , Diverese umgefallende Bäume
+03.01.2018, 	Storm, 	 4552 Derendingen , 	Windfall Diverese umgefallende Bäume
 23.12.2019, 	BMA, 	Gewerbestrasse 11 Brönimann 4552 Derendingen, 	BMA Alarm 
 05.12.2019, 	BMA, 	Steinmattstrasse 35 4552 Derendingen, 	BMA Coop 
 30.11.2019, 	BMA, 	Gewerbestrasse 11 Brönimann 4552 Derendingen, 	BMA Alarm 
