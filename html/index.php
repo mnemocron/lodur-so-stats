@@ -1,146 +1,111 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>LODUR | simonmartin.ch</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="./assets/leaflet-0.7/leaflet.css" />
-</head>
+<title>LODUR | simonmartin.ch</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- https://www.favicon-generator.org/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="../images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
 <body>
-    <div id="map" style="width: 98vw; height: 98vh; padding: 0px; margin: 0px;"></div>
 
-    <script src="./assets/leaflet-0.7/leaflet.js">
-    </script>
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="../" class="w3-button w3-block">simonmartin.ch</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="./map.php" class="w3-button w3-block">Karte</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="https://github.com/mnemocron/lodur-so-stats" class="w3-button w3-block">Code</a>
+    </div>
+    <!--<div class="w3-col s3">
+      <a href="#" class="w3-button w3-block"></a>
+    </div>-->
+  </div>
+</div>
 
-    <script>
-        var map = L.map('map').setView([47.190749, 7.589192], 14);
-        mapLink = 
-            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-        L.tileLayer(
-            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; ' + mapLink + ' Contributors',
-            maxZoom: 18,
-            }).addTo(map);
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
-        var greenIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-green.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var redIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-red.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var blueIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-blue.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var goldIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-gold.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var orangeIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-orange.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var yellowIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-yellow.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var violetIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-violet.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var greyIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-grey.png',
-          shadowUrl: './assets/icons/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
-        var blackIcon = new L.Icon({
-          iconUrl: './assets/icons/marker-icon-2x-black.png',
-          shadowUrl: './assets/icons/images/marker-shadow.png',
-          iconSize: [25, 41],
-          iconAnchor: [12, 41],
-          popupAnchor: [1, -34],
-          shadowSize: [41, 41]
-        });
+  <div class="w3-panel">
+    <h1><b>Feuerwehreinsätze Derendingen (2011 - 2020)</b></h1>
+    <p>Die Daten der <a href="https://lodur-so.ch/derendingen/index.php?modul=6">lodur-so.ch</a> Website auf einer Karte dargestellt. Angaben ohne Gewähr (einige Adressen sind fehlerhaft).</p> 
+    <p>Kategorien: <span class="w3-red">&nbsp;Feuer&nbsp;</span> / <span class="w3-orange">&nbsp;Alarm (BMA)&nbsp;</span> / <span class="w3-blue">&nbsp;Wasser&nbsp;</span> / <span class="w3-green">&nbsp;Personen / Tiere&nbsp;</span> / <span class="w3-purple">&nbsp;Hazmat (Chemie)&nbsp;</span> / <span class="w3-dark-grey">&nbsp;diverses&nbsp;</span></p>
+  </div>
 
-        <?php
-        $year = $_GET["year"];
-        $category = $_GET["category"];
+  <div class="w3-panel">
+    <iframe src="./map.php" style="width: 100%; height: 50vh;"></iframe>
+    <p>Karte öffnen: <a href="./map.php" >Karte</a></p>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Filter</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16 w3-center">
+      <h3>Jahre</h3>
+      <p>2019 - 2020</p>
+      <a href="./map.php?year=2020,2019"><button class="w3-button w3-green w3-padding-large">Karte</button></a>
+    </div>
 
-        $filepath = "lodur-raw.json";
-        $myfile = fopen($filepath, "r") or die("Unable to open file!");
-        $jsonstr = fread($myfile, filesize($filepath));
-        $jsondata = json_decode($jsonstr, true);
-        fclose($myfile);
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16 w3-center">
+      <h3>Kategorie</h3>
+      <p>Brandmeldealarm (BMA)</p>
+      <a href="./map.php?category=BMA"><button class="w3-button w3-green w3-padding-large">Karte</button></a>
+    </div>
 
-        $i = 0;
-        foreach ($jsondata as $position) {
-            // randomize location so that multiple at the same address are scattered around
-            $blur = (rand(0,1000) / 1000) / 10000 * 3;
-            $lat = $position["lat"] + $blur;
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16 w3-center">
+      <h3>Kategorie</h3>
+      <p>Wasser</p>
+      <a href="./map.php?category=Water"><button class="w3-button w3-green w3-padding-large">Karte</button></a>
+    </div>
 
-            $blur = (rand(0,1000) / 1000) / 10000 * 3;
-            $lon = $position["lon"] + $blur;
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16 w3-center">
+      <h3>Kategorie</h3>
+      <p>Chemieunfälle</p>
+      <a href="./map.php?category=Hazmat"><button class="w3-button w3-green w3-padding-large">Karte</button></a>
+    </div>
+  </div>
 
-            $cat = $position["category"];
-            $txt = $position["text"];
-            $adr = $position["address"];
-            $dat = $position["date"];
+</div>
 
-            $icon = "greyIcon";
-            if(strpos($cat, "BMA") !== false){
-                $icon = "orangeIcon";
-            } else if(strpos($cat, "Water") !== false){
-                $icon = "blueIcon";
-            } else if(strpos($cat, "Fire") !== false){
-                $icon = "redIcon";
-            } else if(strpos($cat, "Hazmat") !== false){
-                $icon = "violetIcon";
-            } else if(strpos($cat, "Animal") !== false || strpos($cat, "Person") !== false){
-                $icon = "greenIcon";
-            }
+<!-- Footer -->
 
-            // correctly escape Anführungszeichen
-            $popup = "\"<b>" . str_replace("\"", "\\\"", $txt) . "</b><p>" . $dat . " - " . str_replace("\"", "\\\"", $cat) . " - " . str_replace("\"", "\\\"", $adr) . "</p>\"";
-            if(array_key_exists("lat", $position) && array_key_exists("lon", $position)){
-                echo("var marker_" . $i . " = L.marker([" . $lat . ", " . $lon . "], {icon: " . $icon . "},{draggable: false,title: '" . $cat . "',opacity: 1.0}).addTo(map).bindPopup(" . $popup . ");\n");
-                $i = $i +1;
-            }
-        }
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4></h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://github.com/mnemocron/lodur-so-stats"><i class="fa fa-github w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
 
-        ?>
-
-    </script>
 </body>
 </html>
